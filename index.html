@@ -5,43 +5,53 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meu Portfólio - Eduardo Sequeira</title>
+        <link rel="stylesheet" type= "text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,700;1,400;1,700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,800;1,800;1,900&display=swap" rel="stylesheet"> 
+
     </head>
     <body>
-        <center>
-            <h1>Eduardo Sequeira</h1>
-            <img src="minhafoto.jpeg" alt="foto-eduardo" width="200px">
-            <h5>Esse sou eu, logo depois de finalizar meu portfólio!</h5>
-            <br>
-            <h2>Content</h2>
-            <ol>
-                <a href="#info"><li>Info</li></a>
-                <a href="#moreAboutMe"><li>More about me</li></a>
-                <a href="#capabilities"><li>Capabilities</li></a>
-                <a href="#hardSkills"><li>Hard Skills</li></a>
-                <a href="#trivia"><li>Trivia</li></a>
-            </ol>
-        </center>
+        <h1>Eduardo Sequeira</h1>
+            <div class="fotoDePerfil">
+                <img src="minhafoto.jpeg" alt="foto-eduardo" width="200px" class="foto-eduardo">
+                <div class="overlayPerfil">
+                    <div class="textoDaFoto">Esse sou eu, logo depois de finalizar meu portfólio!</div>
+                    </div>
+                </div>
+            </div>
+        <div id="descricaoDaFoto">
+        </div>
+        <br>
+        <div id="content">Content</div>
+            <div id="contentIndex">
+                <ol>
+                    <a href="#info"><li>Info</li></a>
+                    <a href="#moreAboutMe"><li>More about me</li></a>
+                    <a href="#capabilities"><li>Capabilities</li></a>
+                    <a href="#hardSkills"><li>Hard Skills</li></a>
+                    <a href="#trivia"><li>Trivia</li></a>
+                </ol>
+            </div>
             
     <hr>
         <div id = "info">
-            <h2>1. Info</h2>
-        <p>
-            Born in January 1st of 2001
-        <br>
-            Resident of Rio de Janeiro/RJ - Brazil
-        </p>
+                <h2>1. Info</h2>
+            <p>
+                Born in January 1st of 2001
+            <br>
+                Resident of Rio de Janeiro/RJ - Brazil
+            </p>
         </div>
     <br>
         <div id = "moreAboutMe">
-            <h2>2. More about me</h2>
-        <p> 
-            I'm a student at <a href="https://www.betrybe.com/" target="_blank"><strong><em>Trybe Course</em></strong></a>
+                <h2>2. More about me</h2>
+            <p> 
+                I'm a student at <a href="https://www.betrybe.com/" target="_blank"><strong><em>Trybe Course</em></strong></a>
     <br>
-            I've came from a not-that-long journey, started producing music artists
-            at 15 and now i'm rediscovering myself in front of a computer, really excited 
-            to meet new people, show my skills and get to know more about this world<br>
-            If you want to know more about me, just click <a href="https://github.com/EdSequeira" target= "_blank"><strong><em>here</em></strong></a>
-        </p>
+                I've came from a not-that-long journey, started producing music artists
+                at 15 and now i'm rediscovering myself in front of a computer, really excited 
+                to meet new people, show my skills and get to know more about this world<br>
+                If you want to know more about me, just click <a href="https://github.com/EdSequeira" target= "_blank"><strong><em>here</em></strong></a>
+            </p>
     <hr>
         <div id = "capabilities">
             <h2>3. Capabilities</h2>
@@ -60,18 +70,19 @@
             <li>HTML5</li>
             <li>JavaScript</li>
             <li>CSS</li>
-        </div>
         </ul>
+        </div>
     <hr>
         <div id = "trivia">
             <h2>5. Trivia</h2>
             <ul>
                 <li>Frogs are my favorite animals</li>
-                <li>I'm a sound enthusiast, specially <a href="https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=1300295&q=site:http%3A%2F%2Ffeeds.feedburner.com%2Fprogarchives%2Freviews" target="_blank"><strong><em>progressive music and experimental</em></strong></a></li>
+                <li>I'm a sound enthusiast, specially <a href="https://www.feedspot.com/infiniterss.php?_src=feed_title&followfeedid=1300295&q=site:http%3A%2F%2Ffeeds.feedburner.com%2Fprogarchives%2Freviews" target="_blank">
+                    <span class="links">progressive music and experimental</span></a></li>
                 <li>Addicted to yerba mate</li>
                 <li>Dedicated gamer on my spare time</li>
             </ul>
         </div>
-        <center><img src="frog-music.gif" alt="mylittlefrog" width="350px"></center>
+        <img src="frog-music.gif" alt="mylittlefrog" width="350px" class="frogGif">
     </body>
 </html>

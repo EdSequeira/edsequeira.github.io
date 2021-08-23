@@ -1,0 +1,149 @@
+body {
+    background-color: #3C5E15;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #B4CD2D;
+    font-family: 'Aleo';
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    font-size: 60px;
+    background-color: #3E7E63;
+}
+
+h2 {
+    font-family: 'Aleo', serif;
+    font-weight: bold;
+    font-stretch: semi-expanded;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    color: #B4CD2D;
+}
+
+#content {
+    font-family: 'Aleo';
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    color: #B4CD2D;
+    text-shadow: 1px 1px 2px black;
+}
+    #contentIndex {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        text-align:center;
+        padding-right: 30px;
+    }
+.fotoDePerfil {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+    .foto-eduardo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        width: 15%;
+        border: 0%;
+    }  
+        .overlayPerfil {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 15%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: black;
+            border-radius: 10px;
+        }
+            .fotoDePerfil:hover .overlayPerfil {
+                opacity: 0.8;
+                }
+                    .textoDaFoto {
+                        color: white;
+                        font-size: 20px;
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        -ms-transform: translate(-50%, -50%);
+                    }
+
+
+#descricaoDaFoto {
+    font-family: 'Aleo', serif;
+    font-weight: bold;
+    font-stretch: extra-condensed;
+    font-size: 15px;
+    text-shadow: black;
+    color: #B4CD2D;
+}
+
+#info {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    font-stretch: extra-condensed;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #B4CD2D;
+    color: #B4CD2D;
+}
+
+#moreAboutMe {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    font-stretch: extra-condensed;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #B4CD2D;
+    color: #B4CD2D;
+}
+
+#capabilities {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    font-stretch: extra-condensed;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #B4CD2D;
+    color: #B4CD2D;
+}
+
+#hardSkills {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    font-stretch: extra-condensed;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #B4CD2D;
+    color: #B4CD2D;
+}
+
+#trivia {
+    font-family: 'Montserrat', serif;
+    font-weight: normal;
+    font-stretch: extra-condensed;
+    font-size: 15px;
+    text-shadow: 4px 4px 4px #B4CD2D;
+    color: #B4CD2D;
+}
+
+hr {
+    border: 8px solid #B4CD2D
+}
+
+.links {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.frogGif {
+    : center;
+}
